@@ -18,7 +18,7 @@ export class EmmanuelStack {
     /*
     * This method returns the stack as a string.
     */
-    public get showStack() {
+    public get showStack(): string {
       let values = "";
       for (let counter = 0; counter < this.stackAsList.length; counter++) {
         values = values + this.stackAsList[counter] + ", " ;
