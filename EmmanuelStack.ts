@@ -8,6 +8,9 @@
 
 export class EmmanuelStack {
 
+  // Type annotation for a list of strings
+  private stackAsList: string[] = [];
+
     /*
     * The constructor for the EmmanuelStack string stack class.
     */
@@ -30,7 +33,7 @@ export class EmmanuelStack {
     /*
     * This method pushes a string onto the stack.
     */
-    public push(input) {
+    public push(input): string {
       this.stackAsList.push(input)
     }
   
